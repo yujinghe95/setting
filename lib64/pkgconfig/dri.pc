@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib64
+includedir=/usr/include
+dridriverdir=/usr/lib64/dri
+
+Name: dri
+Description: Direct Rendering Infrastructure
+Version: 18.3.4
+Requires.private: libdrm >= 2.4.75
+Cflags: -I${includedir}
